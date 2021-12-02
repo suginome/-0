@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+
+html{
+   font-size: 62.5%; 
+}
+
+body{
+    color: #000000;
+    font-family:hiragino,sans-serif;
+    font-size: 1.6rem;
+}
+
+
+img{width: 100%;
+    height: auto;
+}
+
+.top{
+    width: 100%;
+    margin: auto;
+}
+
+
+/* topimage */
+
+.topimage{
+    position: relative;
+    
+}
+
+.site-title{
+    position:absolute;
+    top: 50%;
+    left: 25%;
+    color:#ffffff;
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+.site-title2{
+    position:absolute;
+    top: 65%;
+    left: 35%;
+    color:#ffffff;
+    font-size: 32px;
+}
+
+/* menu */
+
+.logo{
+    display:flex;
+    max-width: 100%;
+}              
+
+.menu{
+    display:flex;
+    margin-top: 20px;
+    justify-content: space-between; 
+
+}
+
+
+
+.wrapper-menu{
+    display:flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+}
+/* 横幅間隔を広げたい */
+/* cssきかない */
+
+
+/**.about-title {
+    margin-bottom: 24px;
+    
+    color: red;
+}*/
+
+.area-title{
+    color :#FFD61A;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.about{
+    width: 100%;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.about-images{
+    width: 100%;
+    text-align: center;
+}
+
+/* COURSE */
+
+.course-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.course-theme{
+    margin: 40px;
+    text-align:center;
+    line-height: 1.8;   
+}
+
+.course-text{
+    display:block;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.course-subtitle{
+    line-height:2;
+    font-weight: bold;
+    margin:0 0 14;
+}
+
+
+.course-item{
+    width: 50%;
+    height:auto}
+
+.course-wrapper{
+    display:flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    max-width: auto;
+    height: auto;
+    margin: auto;
+
+}
+
+
+/* NEWS */
+
+.news-list {
+    display: flex;
+}
+
+.news-item{
+    /* min-width:33.333%; */
+    /* width:33.333%; */
+    /* flex:0 0 33.333% */
+
+} 
+
+/* contact */
+
+
+.contact-top{
+    margin-top: top 116px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+/* top効かない アラインセンターも効かない */
+
+.form-wrapper {
+    width: 560px;
+    margin:auto;
+}
+
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* 効かない */
+
+.form-title{
+    margin-top: 80px;
+}
+
+
+
+/* ---------------
+
+CSSを適用していく時は、下記テンプレートをコピペして
+波括弧の間に命令を書くようにしましょう！
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓ ここからテンプレート ↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+.nickname{
+
+}
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑ ここからテンプレート ↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+---------------*/
+
+/*画面全体の基本設定*/
+
+/*画像を伸縮させるために必要*/
